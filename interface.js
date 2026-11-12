@@ -1,14 +1,3 @@
-/* =========================================================
-   POKÉDEX - INTERFACE
-   Controla apenas o comportamento da tela:
-   abrir/fechar a Pokédex, zoom com o scroll do mouse e janela de ajuda.
-   O código da PokeAPI fica no arquivo pokedex.js.
-   ========================================================= */
-
-
-/* ---------------------------------------------------------
-   1. ABRIR E FECHAR A POKÉDEX
-   --------------------------------------------------------- */
 const pokedex = document.getElementById('pokedex');
 const coverFront = document.getElementById('cover-front');
 const lens = document.getElementById('lens');
@@ -81,3 +70,4 @@ const helpDialog = document.getElementById('help-dialog');
 
 document.getElementById('help-btn').addEventListener('click', () => helpDialog.showModal());
 document.getElementById('help-close').addEventListener('click', () => helpDialog.close());
+
